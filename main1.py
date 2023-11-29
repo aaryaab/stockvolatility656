@@ -5,28 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import yfinance as yf # https://pypi.org/project/yfinance/
-from ta.volatility import BollingerBands
-#from ta.trend import MACD
-#from ta.momentum import RSIIndicator
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import seaborn
 from scipy import stats
 import pylab as pl
-from sklearn.metrics import mean_squared_error, r2_score
 from pandas.plotting import lag_plot
 from pandas import datetime
-from statsmodels.tsa.arima_model import ARIMA
-import os
-import warnings
-warnings.filterwarnings('ignore')
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.seasonal import seasonal_decompose
-from pmdarima.arima import auto_arima
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-from io import BytesIO
-import math
 ###########
 # sidebar #
 ###########
