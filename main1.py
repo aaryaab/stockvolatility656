@@ -9,7 +9,6 @@ import seaborn
 from scipy import stats
 import pylab as pl
 from pandas.plotting import lag_plot
-from pandas import datetime
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.seasonal import seasonal_decompose
 ###########
