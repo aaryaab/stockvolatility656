@@ -97,6 +97,7 @@ elif option == 'AMZN':
 elif option == 'WMT':
     st.markdown(f"<h3 style='text-align: left; color: black;'>Average Stock Price of Walmart is {avg_stock:.2f}</h3>", unsafe_allow_html=True)
 
+st.markdown(f"<h1 style='text-align: center; color: black;'>Volatality Graph</h1>", unsafe_allow_html=True)
 
 def plot_stock_volatility(stock_df, window):
     daily_returns = stock_df['Close'].pct_change()
