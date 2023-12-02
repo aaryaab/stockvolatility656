@@ -146,7 +146,7 @@ def test_stationarity(timeseries):
 
     
    
-    st.markdown("<h1 style='text-align: center; color: black;'>Statistic values of Dickey Filler Test</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>Statistic values of Dickey Fuller Test</h1>", unsafe_allow_html=True)
     st.dataframe(output)
     return output
 
